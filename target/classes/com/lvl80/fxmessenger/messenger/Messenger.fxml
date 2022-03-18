@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#formKeyPressed" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lvl80.fxmessenger.messenger.MessengerController">
+   <children>
+      <TextArea fx:id="textArea" layoutX="29.0" layoutY="14.0" prefHeight="293.0" prefWidth="543.0" />
+      <TextField fx:id="textField" layoutX="29.0" layoutY="332.0" prefHeight="25.0" prefWidth="361.0" />
+      <Button layoutX="517.0" layoutY="332.0" mnemonicParsing="false" onAction="#sendMessage" text="Send" />
+   </children>
+</AnchorPane>
