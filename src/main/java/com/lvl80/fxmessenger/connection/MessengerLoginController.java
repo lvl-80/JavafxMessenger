@@ -47,6 +47,7 @@ public class MessengerLoginController {
                 messengerApp.start(new Stage());
                 // Закрытие окна логина
                 MessengerLoginApp.getStage().close();
+                DatabaseManager.disconnect();
             }
         } catch (Exception e){
             System.out.println("Неверный порт");

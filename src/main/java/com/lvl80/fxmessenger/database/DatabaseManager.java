@@ -32,4 +32,15 @@ public class DatabaseManager {
         }catch (SQLException e){System.out.println("#Error DatabaseManager -> getResultSet()");}
         return null;
     }
+
+    // Завершине работы с БД
+    public static void disconnect(){
+        try {
+            getConnection().close();
+        } catch (SQLException e) {System.out.println("#Error DatabaseManager -> disconnect");};
+        DriverManager.getDrivers().asIterator().forEachRemaining(driver -> {
+            try {
+                DriverManager.deregisterDriver(driver);
+            } catch (SQLException e) {System.out.println("#Error DatabaseManager -> disconnect");}});
+    }
 }
