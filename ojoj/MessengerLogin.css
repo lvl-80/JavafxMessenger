@@ -1,0 +1,40 @@
+.root {
+    -fx-background-color: black;
+}
+
+.panel{
+    -fx-background-color: #ddd4f0;
+    /*-fx-background-radius: 10;*/
+}
+
+.button_connect{
+    -fx-background-color: #ddd4f0;
+    -fx-text-fill: black;
+    -fx-font-size: 10pt;
+    -fx-font-family: "Arial Black";
+    -fx-border-radius: 12;
+    -fx-background-radius: 10;
+}
+
+.button_registr{
+    -fx-background-color: #141414;
+    -fx-text-fill: #ddd4f0;
+    -fx-font-size: 8pt;
+    -fx-font-family: "Arial Black";
+}
+
+.panel_login{
+    -fx-background-color: #141414;
+    -fx-background-radius: 10;
+}
+
+.input_login{
+    -fx-text-fill: #ddd4f0;
+    -fx-font-family: "Arial Black";
+}
+
+.image_panel{
+    -fx-background-image: url("images/connection.png");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+}
