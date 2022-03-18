@@ -2,11 +2,11 @@ package com.lvl80.fxmessenger.userTypes;
 
 public class Client {
 
-    private String login;
-    private String password;
-    private String nickname;
+    private final String login;
+    private final String password;
+    private final String nickname;
 
-    public Client(String _login, String _password, String _nickname){
+    public Client(String _nickname, String _login, String _password){
         login = _login;
         password = _password;
         nickname = _nickname;

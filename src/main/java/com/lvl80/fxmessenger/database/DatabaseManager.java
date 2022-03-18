@@ -1,18 +1,35 @@
 package com.lvl80.fxmessenger.database;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
+import java.util.Objects;
 
 public class DatabaseManager {
-//    public Connection getConnection() throws SQLException {
-//        return DriverManager.getConnection(
-//                "jdbc:mysql://localhost:8889/Messenger.fxml",
-//                "root",
-//                "A10o9nne");
-//    }
-//    public Statement getStatement() throws SQLException {
-//        return getConnection().createStatement();
-//    }
+
+    // Ссылка на локальную БД
+    private final static String url = "jdbc:mysql://localhost:8889/Messenger";
+    // Имя пользователя
+    private final static String user = "user";
+    // Пароль для пользователя
+    private final static String password = "testuser";
+
+    // Метод подключения к БД
+    public static Connection getConnection() throws SQLException {
+        return DriverManager.getConnection(url, user, password);
+    }
+
+    // Метод получения Statement
+    public static Statement getStatement() {
+        try {
+            return getConnection().createStatement();
+        }catch (SQLException e){System.out.println("#Error DatabaseManager -> getStatement()");}
+        return null;
+    }
+
+    // Метод получения результата SQL-запроса из БД
+    public static ResultSet getResultSet(String _request) {
+        try {
+            return Objects.requireNonNull(getStatement()).executeQuery("SELECT " + _request + " FROM Users");
+        }catch (SQLException e){System.out.println("#Error DatabaseManager -> getResultSet()");}
+        return null;
+    }
 }

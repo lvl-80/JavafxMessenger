@@ -1,9 +1,9 @@
 module com.lvl80.fxmessenger {
     requires javafx.controls;
     requires javafx.fxml;
-//    requires java.sql;
+    requires java.sql;
 
-//    requires org.kordamp.bootstrapfx.core;
+    requires org.kordamp.bootstrapfx.core;
 
     opens com.lvl80.fxmessenger.connection to javafx.fxml;
     exports com.lvl80.fxmessenger.connection;
@@ -17,6 +17,6 @@ module com.lvl80.fxmessenger {
     opens com.lvl80.fxmessenger.userTypes to javafx.fxml;
     exports com.lvl80.fxmessenger.userTypes;
 
-//    opens com.lvl80.fxmessenger.database to java.sql;
-//    exports com.lvl80.fxmessenger.database;
+    opens com.lvl80.fxmessenger.database to java.sql;
+    exports com.lvl80.fxmessenger.database;
 }
