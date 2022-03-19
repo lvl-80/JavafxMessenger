@@ -1,0 +1,72 @@
+.input_message{
+    -fx-background-color: black;
+    -fx-text-fill: #ddd4f0;
+    -fx-font-family: "Arial Black";
+    -fx-min-height: 28;
+    -fx-font-size: 12pt;
+    -fx-background-radius: 30 10 30 10;
+}
+
+.btn_send{
+    -fx-background-color: #40916c;
+    -fx-text-fill: black;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 12pt;
+    -fx-background-radius: 30 10 30 10;
+}
+
+.text-area {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 14pt;
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, black, transparent, black;
+    -fx-background-radius: 0, 0, 0, 0;
+
+    -fx-box-border: none;
+    -fx-focus-color: -fx-control-inner-background;
+    -fx-faint-focus-color: -fx-control-inner-background;
+    -fx-text-box-border: -fx-control-inner-background;
+    -fx-border-width: -1;
+}
+
+.text-area .content {
+    -fx-background-color: transparent, black, transparent, black;
+}
+
+.text-area:focused .content {
+    -fx-background-color: transparent, black, transparent, black;
+}
+
+.scroll-pane {
+}
+
+.viewport {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, black, transparent, black;
+    -fx-background-radius: 0, 0, 0, 0;
+
+    -fx-focus-color: -fx-control-inner-background;
+    -fx-faint-focus-color: -fx-control-inner-background;
+    -fx-text-box-border: -fx-control-inner-background;
+    -fx-border-width: -1;
+}
+
+.content {
+}
+
+.text {
+}
+
+.text-area:focused {
+    -fx-highlight-fill: #40916c;
+
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, black, transparent, black;
+    -fx-background-radius: 0, 0, 0, 0;
+
+    -fx-focus-color: -fx-control-inner-background;
+    -fx-faint-focus-color: -fx-control-inner-background;
+    -fx-text-box-border: -fx-control-inner-background;
+    -fx-border-width: -1;
+}
