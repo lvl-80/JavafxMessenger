@@ -9,7 +9,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#formKeyPressed" prefHeight="706.0" prefWidth="996.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lvl80.fxmessenger.messenger.MessengerController">
    <children>
-      <TextArea fx:id="textArea" editable="false" focusTraversable="false" layoutX="33.0" layoutY="131.0" prefHeight="499.0" prefWidth="996.0" styleClass="text-area" stylesheets="@Css/Messenger.css" />
+      <TextArea fx:id="textArea" editable="false" focusTraversable="false" layoutX="28.0" layoutY="127.0" prefHeight="499.0" prefWidth="996.0" styleClass="text-area" stylesheets="@Css/Messenger.css" />
       <AnchorPane layoutX="143.0" layoutY="641.0" prefHeight="51.0" prefWidth="710.0" style="-fx-background-color: #141414 #141414; -fx-background-radius: 12;">
          <children>
             <Button layoutX="617.0" layoutY="6.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="39.0" prefWidth="87.0" styleClass="btn_send" stylesheets="@Css/Messenger.css" text="Send" />

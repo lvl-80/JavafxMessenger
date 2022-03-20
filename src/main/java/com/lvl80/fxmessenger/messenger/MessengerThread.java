@@ -20,6 +20,7 @@ public class MessengerThread extends Thread{
             printWriter = new PrintWriter(_socket.getOutputStream());
             textArea = _textArea;
             isClosed = false;
+            textArea.setWrapText(true);
         }catch (IOException e){System.out.println("#Error MessangerThread -> конструктор");}
     }
 
