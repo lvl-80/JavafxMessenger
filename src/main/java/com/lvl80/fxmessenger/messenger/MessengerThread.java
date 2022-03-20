@@ -30,7 +30,7 @@ public class MessengerThread extends Thread{
         // Сообщение при присоединении
         printWriter.write("Присоединился новый пользователь");
         printWriter.flush();
-        // Постоянный поток приёма и записи
+        // Постоянный поток приёма и записи в TextArea
         try {
             while (!isClosed){
                 byte[] bytes = new byte[32 * 2000];

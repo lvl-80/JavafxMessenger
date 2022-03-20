@@ -7,8 +7,6 @@
     <list default="true" id="bb9d78c3-519b-4f29-b6ba-122cf8f7172d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lvl80/fxmessenger/messenger/MessengerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lvl80/fxmessenger/messenger/MessengerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lvl80/fxmessenger/connection/Css/MessengerLogin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lvl80/fxmessenger/connection/Css/MessengerLogin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lvl80/fxmessenger/messenger/Messenger.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lvl80/fxmessenger/messenger/Messenger.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +83,7 @@
       <workItem from="1647521667597" duration="7234000" />
       <workItem from="1647680859812" duration="867000" />
       <workItem from="1647710050028" duration="2723000" />
-      <workItem from="1647800776945" duration="1897000" />
+      <workItem from="1647800776945" duration="2170000" />
     </task>
     <servers />
   </component>
