@@ -8,44 +8,33 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#formKeyPressed" prefHeight="764.0" prefWidth="1153.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lvl80.fxmessenger.messenger.MessengerController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#formKeyPressed" prefHeight="764.0" prefWidth="943.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lvl80.fxmessenger.messenger.MessengerController">
    <children>
-      <TextArea fx:id="textArea" editable="false" focusTraversable="false" layoutX="28.0" layoutY="127.0" prefHeight="499.0" prefWidth="1153.0" styleClass="text-area" stylesheets="@Css/Messenger.css" />
-      <AnchorPane layoutX="175.0" layoutY="688.0" prefHeight="44.0" prefWidth="855.0" style="-fx-background-color: #141414; -fx-background-radius: 12;">
+      <TextArea fx:id="textArea" editable="false" focusTraversable="false" layoutX="28.0" layoutY="101.0" prefHeight="525.0" prefWidth="943.0" styleClass="text-area" stylesheets="@Css/Messenger.css" />
+      <AnchorPane layoutX="67.0" layoutY="706.0" prefHeight="44.0" prefWidth="810.0" style="-fx-background-color: #141414; -fx-background-radius: 12;">
          <children>
-            <Button layoutX="761.0" layoutY="6.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="33.0" prefWidth="87.0" styleClass="btn_send" stylesheets="@Css/Messenger.css" text="Send" />
-            <TextField fx:id="textField" layoutX="9.0" layoutY="3.0" prefHeight="39.0" prefWidth="752.0" promptText="Message" styleClass="input_message" stylesheets="@Css/Messenger.css">
+            <Button layoutX="716.0" layoutY="6.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="33.0" prefWidth="87.0" styleClass="btn_send" stylesheets="@Css/Messenger.css" text="Send" />
+            <TextField fx:id="textField" layoutX="9.0" layoutY="3.0" prefHeight="39.0" prefWidth="707.0" promptText="Message" styleClass="input_message" stylesheets="@Css/Messenger.css">
                <padding>
                   <Insets left="30.0" />
                </padding></TextField>
-            <AnchorPane layoutX="-1.0" layoutY="-2.0" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: #40916c; -fx-background-radius: 90;" />
+            <AnchorPane layoutX="-1.0" layoutY="-2.0" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: #ff5025#ff5025; -fx-background-radius: 90;" />
          </children>
       </AnchorPane>
-      <Label layoutX="75.0" layoutY="67.0" prefHeight="33.0" prefWidth="200.0" text="Welcome, " textFill="WHITE">
+      <Label fx:id="labelUser2" alignment="CENTER" layoutX="28.0" layoutY="21.0" prefHeight="44.0" prefWidth="134.0" text="JavaFx" textFill="#ff5025">
          <font>
             <Font name="Arial Black" size="30.0" />
          </font>
       </Label>
-      <Label fx:id="labelUser" layoutX="237.0" layoutY="63.0" prefHeight="53.0" prefWidth="245.0" text="User" textFill="#40916c">
+      <Label fx:id="labelUser21" alignment="CENTER" layoutX="162.0" layoutY="21.0" prefHeight="44.0" prefWidth="184.0" text="Messenger" textFill="WHITE">
          <font>
             <Font name="Arial Black" size="30.0" />
          </font>
       </Label>
-      <Label layoutX="75.0" layoutY="103.0" prefHeight="27.0" prefWidth="163.0" text="Glad to see you" textFill="#4a4a4a">
+      <Label fx:id="labelUser211" alignment="CENTER" layoutX="28.0" layoutY="54.0" prefHeight="20.0" prefWidth="134.0" text="made by lvl-80" textFill="#545454">
          <font>
-            <Font name="Arial Black" size="16.0" />
+            <Font name="Arial Black" size="15.0" />
          </font>
       </Label>
-      <AnchorPane prefHeight="53.0" prefWidth="1153.0" style="-fx-background-color: #141414 #141414;">
-         <children>
-            <Button layoutX="1052.0" layoutY="10.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="33.0" prefWidth="87.0" styleClass="btn_send" stylesheets="@Css/Messenger.css" text="Quit" />
-            <Label fx:id="labelUser1" layoutX="54.0" layoutY="15.0" prefHeight="20.0" prefWidth="245.0" text="Sudaevnikita2005@gmail.com" textFill="WHITE">
-               <font>
-                  <Font name="Arial Black" size="12.0" />
-               </font>
-            </Label>
-            <AnchorPane layoutX="22.0" layoutY="15.0" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: #40916c#40916c; -fx-background-radius: 90;" />
-         </children>
-      </AnchorPane>
    </children>
 </AnchorPane>

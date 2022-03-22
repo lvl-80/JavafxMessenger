@@ -52,8 +52,5 @@ public class ServerThread extends Thread{
                 _serverSocket.close();
             }catch (IOException e){System.out.println("#Error ServerThread -> stopThread()");}
         }
-        else if (_startThread != null && _serverSocket == null){
-            _startThread.interrupt();
-        }
     }
 }

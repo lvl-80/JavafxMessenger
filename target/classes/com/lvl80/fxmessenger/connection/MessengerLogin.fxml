@@ -18,12 +18,12 @@
       <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
       <AnchorPane layoutX="420.0" layoutY="111.0" prefHeight="316.0" prefWidth="364.0" styleClass="panel_login" stylesheets="@Css/MessengerLogin.css">
          <children>
-            <TextField fx:id="inputLogin" focusTraversable="false" layoutX="46.0" layoutY="100.0" prefHeight="28.0" prefWidth="273.0" promptText="Login" styleClass="input_login" stylesheets="@Css/MessengerLogin.css">
+            <TextField fx:id="inputLogin" focusTraversable="false" layoutX="46.0" layoutY="51.0" prefHeight="28.0" prefWidth="273.0" promptText="Login" styleClass="input_login" stylesheets="@Css/MessengerLogin.css">
                <font>
                   <Font name="Kefa Regular" size="15.0" />
                </font>
             </TextField>
-            <PasswordField fx:id="inputPassword" focusTraversable="false" layoutX="46.0" layoutY="144.0" prefHeight="28.0" prefWidth="273.0" promptText="Password" style="-fx-background-color: #1a1a1a" styleClass="input_login" stylesheets="@Css/MessengerLogin.css">
+            <PasswordField fx:id="inputPassword" focusTraversable="false" layoutX="46.0" layoutY="99.0" prefHeight="28.0" prefWidth="273.0" promptText="Password" style="-fx-background-color: #1a1a1a" styleClass="input_login" stylesheets="@Css/MessengerLogin.css">
                <font>
                   <Font name="Kefa Regular" size="15.0" />
                </font>
@@ -44,17 +44,22 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <TextField fx:id="inputPort" focusTraversable="false" layoutX="46.0" layoutY="189.0" prefHeight="28.0" prefWidth="135.5" promptText="Port" style="-fx-background-color: #1a1a1a#1a1a1a;" styleClass="input_login" stylesheets="@Css/MessengerLogin.css">
+            <TextField fx:id="inputPort" focusTraversable="false" layoutX="46.0" layoutY="144.0" prefHeight="28.0" prefWidth="135.5" promptText="Port" style="-fx-background-color: #1a1a1a#1a1a1a;" styleClass="input_login" stylesheets="@Css/MessengerLogin.css">
                <font>
                   <Font name="Kefa Regular" size="15.0" />
                </font>
             </TextField>
-            <Label layoutX="46.0" layoutY="31.0" prefHeight="28.0" prefWidth="114.0" text="Sign In" textFill="#52b788">
+            <Label alignment="CENTER" layoutX="114.0" layoutY="-23.0" prefHeight="47.0" prefWidth="64.0" text="In" textFill="#ff5025">
                <font>
-                  <Font name="Arial Black" size="28.0" />
+                  <Font name="Arial Black" size="32.0" />
                </font>
             </Label>
          </children>
       </AnchorPane>
+      <Label layoutX="466.0" layoutY="88.0" prefHeight="47.0" prefWidth="91.0" text="Sign " textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="32.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

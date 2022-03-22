@@ -19,9 +19,6 @@ public class MessengerController {
     @FXML
     private TextArea textArea;
 
-    @FXML
-    private Label labelUser;
-
     // Сокет этого клиента
     private Socket socket;
     // Класс отправки сообщений
@@ -39,9 +36,9 @@ public class MessengerController {
             sender = new MessagesSender();
             client = MessengerLoginController.getClient();
             // Установка никнейма пользователя в чате
-            labelUser.setText(client.getNickname());
+            textField.setPromptText(client.getNickname() + "'s message");
             // Обработчик поступающих сообщений
-            thread = new MessengerThread(socket, textArea);
+            thread = new MessengerThread(socket, textArea, client);
             thread.start();
         } catch (IOException e) {System.out.println("#Error MessageController -> initialize");}
     }
@@ -57,6 +54,7 @@ public class MessengerController {
     // Используется Кнопкой: кнопка -> нажатие -> sendMessage()
     public void sendMessage(){
         sender.sendMessageToServerFromUser(client ,socket, textField);
+        textField.clear();
     }
 
     // Отправка сообщений ENTER

@@ -1,5 +1,6 @@
 package com.lvl80.fxmessenger.messenger;
 
+import com.lvl80.fxmessenger.userTypes.Client;
 import javafx.scene.control.TextArea;
 
 import java.io.IOException;
@@ -13,13 +14,15 @@ public class MessengerThread extends Thread{
     private PrintWriter printWriter;
     private TextArea textArea;
     private Boolean isClosed;
+    private Client client;
 
-    public MessengerThread(Socket _socket, TextArea _textArea){
+    public MessengerThread(Socket _socket, TextArea _textArea, Client _client){
         try {
             in = _socket.getInputStream();
             printWriter = new PrintWriter(_socket.getOutputStream());
             textArea = _textArea;
             isClosed = false;
+            client = _client;
             // Перенос текста в textArea
             textArea.setWrapText(true);
         }catch (IOException e){System.out.println("#Error MessangerThread -> конструктор");}
@@ -29,7 +32,7 @@ public class MessengerThread extends Thread{
     @Override
     public void run(){
         // Сообщение при присоединении
-        printWriter.write("Присоединился новый пользователь");
+        printWriter.write(client.getNickname() + " присоединился к чату");
         printWriter.flush();
         // Постоянный поток приёма и записи в TextArea
         try {
