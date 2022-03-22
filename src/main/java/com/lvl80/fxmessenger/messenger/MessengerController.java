@@ -19,6 +19,9 @@ public class MessengerController {
     @FXML
     private TextArea textArea;
 
+    @FXML
+    private Label labelUser;
+
     // Сокет этого клиента
     private Socket socket;
     // Класс отправки сообщений
@@ -35,6 +38,8 @@ public class MessengerController {
             socket = new Socket("127.0.0.1", MessengerLoginController.getPort());
             sender = new MessagesSender();
             client = MessengerLoginController.getClient();
+            // Установка никнейма пользователя в чате
+            labelUser.setText(client.getNickname());
             // Обработчик поступающих сообщений
             thread = new MessengerThread(socket, textArea);
             thread.start();

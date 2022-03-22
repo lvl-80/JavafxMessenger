@@ -12,16 +12,16 @@
     /*-fx-background-color: #ddd4f0;*/
     -fx-background-color: #52b788;
     -fx-text-fill: black;
-    -fx-font-size: 10pt;
+    -fx-font-size: 11pt;
     -fx-font-family: "Arial Black";
     -fx-border-radius: 12;
-    -fx-background-radius: 10;
+    -fx-background-radius: 5;
 }
 
 .button_registr{
     -fx-background-color: #141414;
     -fx-text-fill: #ddd4f0;
-    -fx-font-size: 10pt;
+    -fx-font-size: 11pt;
     -fx-font-family: "Arial Black";
 }
 
@@ -33,10 +33,10 @@
 
 .input_login{
     -fx-background-color: #1a1a1a;
-    -fx-text-fill: #545454;
+    -fx-text-fill: #ddd4f0;
     -fx-font-family: "Arial Black";
     -fx-min-height: 28;
-    -fx-font-size: 12pt;
+    -fx-font-size: 11pt;
 }
 
 .image_panel{

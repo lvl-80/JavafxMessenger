@@ -20,6 +20,7 @@ public class MessengerThread extends Thread{
             printWriter = new PrintWriter(_socket.getOutputStream());
             textArea = _textArea;
             isClosed = false;
+            // Перенос текста в textArea
             textArea.setWrapText(true);
         }catch (IOException e){System.out.println("#Error MessangerThread -> конструктор");}
     }
@@ -35,7 +36,7 @@ public class MessengerThread extends Thread{
             while (!isClosed){
                 byte[] bytes = new byte[32 * 2000];
                 String message = new String(bytes, 0, in.read(bytes));
-                textArea.appendText(message + "\n");
+                textArea.appendText(message + "\n\n");
             }
             Thread.currentThread().interrupt();
         }catch (IOException e){System.out.println("#Error MessangerThread -> run()");}
