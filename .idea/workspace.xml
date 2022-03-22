@@ -6,17 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bb9d78c3-519b-4f29-b6ba-122cf8f7172d" name="Changes" comment="some style changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lvl80/fxmessenger/messenger/MessengerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lvl80/fxmessenger/messenger/MessengerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lvl80/fxmessenger/messenger/MessengerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lvl80/fxmessenger/messenger/MessengerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lvl80/fxmessenger/server/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lvl80/fxmessenger/server/ServerThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/lvl80/fxmessenger/connection/Css/MessengerLogin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lvl80/fxmessenger/connection/Css/MessengerLogin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/lvl80/fxmessenger/connection/MessengerLogin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lvl80/fxmessenger/connection/MessengerLogin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lvl80/fxmessenger/messenger/Css/Messenger.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lvl80/fxmessenger/messenger/Css/Messenger.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lvl80/fxmessenger/messenger/Messenger.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lvl80/fxmessenger/messenger/Messenger.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lvl80/fxmessenger/connection/Css/MessengerLogin.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lvl80/fxmessenger/connection/Css/MessengerLogin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lvl80/fxmessenger/connection/MessengerLogin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lvl80/fxmessenger/connection/MessengerLogin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lvl80/fxmessenger/messenger/Messenger.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lvl80/fxmessenger/messenger/Messenger.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lvl80/fxmessenger/messenger/MessengerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lvl80/fxmessenger/messenger/MessengerController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +39,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
-  <component name="RunManager" selected="Application.ServerApp">
+  <component name="RunManager" selected="Application.MessengerLoginApp">
     <configuration name="MessengerLoginApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lvl80.fxmessenger.connection.MessengerLoginApp" />
       <module name="FxMessenger" />
@@ -77,8 +68,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServerApp" />
         <item itemvalue="Application.MessengerLoginApp" />
+        <item itemvalue="Application.ServerApp" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +85,7 @@
       <workItem from="1647680859812" duration="867000" />
       <workItem from="1647710050028" duration="2723000" />
       <workItem from="1647800776945" duration="4304000" />
-      <workItem from="1647944293971" duration="2243000" />
+      <workItem from="1647944293971" duration="3039000" />
     </task>
     <task id="LOCAL-00001" summary="some style changes">
       <created>1647803775962</created>

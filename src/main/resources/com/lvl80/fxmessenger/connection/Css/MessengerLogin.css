@@ -1,5 +1,5 @@
 .root {
-    -fx-background-color: black;
+    -fx-background-color: #0b0b0c;
 }
 
 .panel{
@@ -10,7 +10,7 @@
 
 .button_connect{
     /*-fx-background-color: #ddd4f0;*/
-    -fx-background-color: #ff5025;
+    -fx-background-color: #9c4ec5;
     -fx-text-fill: black;
     -fx-font-size: 11pt;
     -fx-font-family: "Arial Black";
@@ -19,14 +19,14 @@
 }
 
 .button_registr{
-    -fx-background-color: #141414;
-    -fx-text-fill: #ddd4f0;
+    -fx-background-color: #0b0b0c;
+    -fx-text-fill:  #9c4ec5;
     -fx-font-size: 11pt;
     -fx-font-family: "Arial Black";
 }
 
 .panel_login{
-    -fx-background-color: #141414;
+    -fx-background-color: #121212;
     -fx-background-radius: 10;
     -fx-font-family: "Arial Black";
 }
