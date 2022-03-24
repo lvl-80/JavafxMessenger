@@ -8,30 +8,30 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#formKeyPressed" prefHeight="764.0" prefWidth="943.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lvl80.fxmessenger.messenger.MessengerController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#formKeyPressed" prefHeight="764.0" prefWidth="1190.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lvl80.fxmessenger.messenger.MessengerController">
    <children>
-      <TextArea fx:id="textArea" editable="false" focusTraversable="false" layoutX="28.0" layoutY="101.0" prefHeight="525.0" prefWidth="943.0" styleClass="text-area" stylesheets="@Css/Messenger.css" />
-      <AnchorPane layoutX="67.0" layoutY="706.0" prefHeight="44.0" prefWidth="810.0" style="-fx-background-color: #141414; -fx-background-radius: 12;">
+      <TextArea fx:id="textArea" editable="false" focusTraversable="false" layoutX="28.0" layoutY="101.0" prefHeight="525.0" prefWidth="1190.0" styleClass="text-area" stylesheets="@Css/Messenger.css" />
+      <AnchorPane layoutX="155.0" layoutY="706.0" prefHeight="44.0" prefWidth="880.0" style="-fx-background-color: #141414; -fx-background-radius: 12;">
          <children>
-            <Button layoutX="716.0" layoutY="6.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="33.0" prefWidth="87.0" styleClass="btn_send" stylesheets="@Css/Messenger.css" text="Send" />
-            <TextField fx:id="textField" layoutX="9.0" layoutY="3.0" prefHeight="39.0" prefWidth="707.0" promptText="Message" styleClass="input_message" stylesheets="@Css/Messenger.css">
+            <Button layoutX="785.0" layoutY="5.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="33.0" prefWidth="87.0" styleClass="btn_send" stylesheets="@Css/Messenger.css" text="Send" />
+            <TextField fx:id="textField" layoutX="9.0" layoutY="3.0" prefHeight="39.0" prefWidth="774.0" promptText="Message" styleClass="input_message" stylesheets="@Css/Messenger.css">
                <padding>
                   <Insets left="30.0" />
                </padding></TextField>
-            <AnchorPane layoutX="-1.0" layoutY="-2.0" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: #ff5025#ff5025; -fx-background-radius: 90;" />
+            <AnchorPane layoutX="-1.0" layoutY="-2.0" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: #9c4ec5#9c4ec5; -fx-background-radius: 90;" />
          </children>
       </AnchorPane>
-      <Label fx:id="labelUser2" alignment="CENTER" layoutX="28.0" layoutY="21.0" prefHeight="44.0" prefWidth="134.0" text="JavaFx" textFill="#ff5025">
+      <Label fx:id="labelUser2" alignment="CENTER" layoutX="28.0" layoutY="21.0" prefHeight="39.0" prefWidth="159.0" text="JavaFx" textFill="#9c4ec5">
          <font>
-            <Font name="Arial Black" size="30.0" />
+            <Font name="Arial Black" size="35.0" />
          </font>
       </Label>
-      <Label fx:id="labelUser21" alignment="CENTER" layoutX="162.0" layoutY="21.0" prefHeight="44.0" prefWidth="184.0" text="Messenger" textFill="WHITE">
+      <Label fx:id="labelUser21" alignment="CENTER" layoutX="172.0" layoutY="21.0" prefHeight="53.0" prefWidth="222.0" text="Messenger" textFill="WHITE">
          <font>
-            <Font name="Arial Black" size="30.0" />
+            <Font name="Arial Black" size="35.0" />
          </font>
       </Label>
-      <Label fx:id="labelUser211" alignment="CENTER" layoutX="28.0" layoutY="54.0" prefHeight="20.0" prefWidth="134.0" text="made by lvl-80" textFill="#545454">
+      <Label fx:id="labelUser211" alignment="CENTER" layoutX="31.0" layoutY="63.0" prefHeight="23.0" prefWidth="124.0" text="made by lvl-80" textFill="#545454">
          <font>
             <Font name="Arial Black" size="15.0" />
          </font>

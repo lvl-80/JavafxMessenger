@@ -1,0 +1,32 @@
+.root{
+    /*-fx-background-image: url("images/background.jpg");*/
+    /*-fx-background-size: 190%;*/
+    /*-fx-background-repeat: no-repeat;*/
+    -fx-background-color:  black;
+}
+.button_connect{
+    -fx-background-radius: 10;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 15px;
+    -fx-background-color: #ddd4f0;
+    -fx-fill: black;
+    -fx-pref-width: 100;
+    -fx-pref-height:10;
+}
+
+.input_port{
+    -fx-background-radius: 10;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 15px;
+    -fx-background-color: black;
+    -fx-fill: white;
+    -fx-pref-width: 100;
+    -fx-pref-height: 10;
+    -fx-opacity: 100%;
+}
+
+.image_icon{
+    -fx-background-image: url("images/cloud-server.png");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+}
