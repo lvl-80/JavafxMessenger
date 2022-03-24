@@ -57,7 +57,7 @@
       <AnchorPane layoutX="-59.0" layoutY="-72.0" prefHeight="145.0" prefWidth="147.0" style="-fx-background-color: #9c4ec5#9c4ec5; -fx-background-radius: 900;" />
       <Label layoutX="88.0" layoutY="221.0" prefHeight="109.0" prefWidth="253.0" text="Sign in to an existing account or create a new one. You can also visit my " textFill="#686868" wrapText="true">
          <font>
-            <Font name="Arial Black" size="17.0" />
+            <Font name="Arial Black" size="15.0" />
          </font>
       </Label>
       <Label layoutX="88.0" layoutY="175.0" prefHeight="22.0" prefWidth="235.0" text="made by lvl-80 with love" textFill="#2f2f2f" wrapText="true">
@@ -73,9 +73,9 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Label layoutX="88.0" layoutY="314.0" prefHeight="31.0" prefWidth="34.0" text="Git" textFill="#9c4ec5" wrapText="true">
+      <Label layoutX="198.0" layoutY="288.0" prefHeight="22.0" prefWidth="34.0" text="Git" textFill="#9c4ec5" wrapText="true">
          <font>
-            <Font name="Arial Black" size="17.0" />
+            <Font name="Arial Black" size="15.0" />
          </font>
       </Label>
       <Button layoutX="74.0" layoutY="416.0" mnemonicParsing="false" onAction="#openMessangerWindow" prefHeight="31.0" prefWidth="91.0" styleClass="button_registr" stylesheets="@Css/MessengerLogin.css" text="Visit Git">
@@ -86,9 +86,9 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Label layoutX="119.0" layoutY="317.0" prefHeight="26.0" prefWidth="82.0" text="-account" textFill="#686868" wrapText="true">
+      <Label layoutX="223.0" layoutY="288.0" prefHeight="13.0" prefWidth="82.0" text="-account" textFill="#686868" wrapText="true">
          <font>
-            <Font name="Arial Black" size="17.0" />
+            <Font name="Arial Black" size="15.0" />
          </font>
       </Label>
    </children>

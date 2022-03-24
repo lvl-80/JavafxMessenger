@@ -8,7 +8,7 @@
 }
 
 .btn_send{
-    -fx-background-color: #ff5025;
+    -fx-background-color: #9c4ec5;
     -fx-text-fill: black;
     -fx-font-family: "Arial Black";
     -fx-font-size: 12pt;
@@ -59,7 +59,7 @@
 }
 
 .text-area:focused {
-    -fx-highlight-fill: #ff5025;
+    -fx-highlight-fill: #9c4ec5;
 
     -fx-background-insets: 0;
     -fx-background-color: transparent, black, transparent, black;
